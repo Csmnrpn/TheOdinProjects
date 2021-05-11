@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topNavBar {
+    display:flex;
+    justify-content:flex-end;
+}
+
+.topNavItems {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.topNavItems li {
+    display: inline;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.topNavItems li:last-child {
+    margin-right: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connectLink {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #2b7de9;
+    border-radius: 3px;
+    padding: 6px;
+}
