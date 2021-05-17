@@ -40,13 +40,14 @@ body {
 }
 
 .connectLink {
+    font-size: 15px;
     text-decoration: none;
     color: black;
     display: block;
     color: #fff;
     background-color: #2b7de9;
     border-radius: 4px;
-    padding: 11px 28px;
+    padding: 9px 26px;
 }
 
 .topNavItems li:hover {
@@ -55,4 +56,61 @@ body {
 
 .up {
     line-height: 0.7;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.imageContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 96px;
+    width: 100%;
+}
+
+.image {
+    margin-top: 210px;
+}
+
+.mainContent {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    border:1px solid grey;
+    width: 580px;
+    height: 50px;
+    align-items: center;
+}
+
+.searchIcon,
+.keyboard {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.searchBar {
+    width:500px;
+    border: 1px solid black;
+}
+
+.searchBar {
+    height: 30px;
+    width: 500px;
+    border: none;
+}
+
+.searchBar:focus {
+    outline:none;
 }
